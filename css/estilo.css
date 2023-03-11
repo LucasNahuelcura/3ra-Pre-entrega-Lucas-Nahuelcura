@@ -1,680 +1,116 @@
-/* Pagina principal ( index ) */
-
+@import "https://fonts.google.com/specimen/Roboto";
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-
-
-@import url(https://fonts.google.com/specimen/Roboto);
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-
+  font-family: "Poppins", sans-serif;
+  background-color: white;
 }
-
-/* header + logo */
 
 .Logo {
-    display: flex;
-    width: 95px;
-
-
+  display: flex;
+  width: 95px;
 }
-
 
 .paginas {
-    font-size: 1.3rem;
-    color: white black;
-    font-size: 15px;
+  font-size: 1.3rem;
+  color: white black;
+  font-size: 15px;
 }
-
 .paginas:hover {
-    text-decoration: underline;
-    color: black;
-    font-weight: bold;
-
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
 }
 
 .colorfondo {
-    background-color: #EECCC7;
+  background-color: #EECCC7;
 }
 
-
-
-
-/* Portada imagenes (main) */
-
 .imgcarousel {
-    height: 820px;
-    object-fit: cover;
+  height: 820px;
+  object-fit: cover;
 }
 
 .bordesimgcarousel {
-    border-top: 1px black solid;
-
+  border-top: 1px black solid;
 }
-
-
-/* Seccion de clases de uñas */
 
 .row {
-
-    display: flex;
-    justify-content: space-evenly;
-
-
+  display: flex;
+  justify-content: space-evenly;
 }
 
-
 .imgs {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/imagen1.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-
-
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/imagen1.png);
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 200px;
+  margin-bottom: 120px;
 }
 
 .imgs2 {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/imagen2.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/imagen2.png);
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 200px;
+  margin-bottom: 120px;
 }
 
 .imgs3 {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/imagen3.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/imagen3.png);
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 200px;
+  margin-bottom: 120px;
 }
 
 .imgs4 {
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/imagen4.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-} 
-
-.pimg {
-    text-align: center;
-    margin-top: 330px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/imagen4.png);
+  background-size: cover;
+  border-radius: 100%;
+  margin-top: 200px;
+  margin-bottom: 120px;
 }
 
-/*  slogan */
+.pimg {
+  text-align: center;
+  margin-top: 330px;
+}
 
 .slogan {
-    height: 400px;
-    margin-top: 200px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+  height: 400px;
+  margin-top: 200px;
+  background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .logoslogan {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-
-
-
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-
 .textoslogan {
-
-
-
-    text-align: center;
-    background-color: black;
-    color: white;
-
-
+  text-align: center;
+  background-color: black;
+  color: white;
 }
 
 .fraseslogan {
-    margin-top: 0px;
-    font-weight: bold;
+  margin-top: 0px;
+  font-weight: bold;
 }
 
-
-
-/* footer */
-
-
-
-footer {
-
-
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    background-color: #EECCC7;
-
-}
-
-h3 {
-    color: black;
-    margin-top: 60px;
-    text-align: center;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
-
-}
-
-.redes {
-
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.redes a {
-    color: black;
-
-}
-
-
-.piepagina {
-    padding: 0px;
-}
-
-
-
-
-/* *********** ESTILO DE SERVICIO ************** */
-
-.infos {
-    height: 250px;
-    display: flex;
-    border-top: 2px black solid;
-    padding: 50px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
-    justify-content: center;
-
-}
-
-.contenedors {
-    margin-top: -120px;
-}
-
-
-.imgser {
-    width: 300px;
-    height: 300px;
-    background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/manicura-1.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-
-}
-
-.imgser2 {
-    width: 300px;
-    height: 300px;
-    background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/estetica-de-pies-1.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-}
-
-.imgser3 {
-    width: 300px;
-    height: 300px;
-    background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/faciales-1.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-
-}
-
-.imgser4 {
-    width: 300px;
-    height: 300px;
-    background-image: url(https://www.actualis.com.ar/wp-content/uploads/2021/06/depil%C3%A1ser.png);
-    background-size: cover;
-    border-radius: 100%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-}
-
-
-.pimgs {
-    text-align: center;
-    margin-top: 330px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-}
-
-/* Footer de Servicios */
-
-.footerser {
-    margin-top: 120px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    background-color: #EECCC7;
-
-}
-
-h3 {
-    color: black;
-    margin-top: 60px;
-    text-align: center;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
-
-}
-
-.redes {
-
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.redes a {
-    color: black;
-
-}
-
-/* Fin Footer de Servicios */
-
-/* Fin de Servicios */
-
-
-/* *********** ESTILO DE CONTACTO ************** */
-
-
-.infoc {
-    height: 250px;
-    display: flex;
-    border-top: 2px black solid;
-    padding: 50px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
-    justify-content: center;
-
-}
-
-.contenedorcont {
-    margin-top: -120px;
-}
-
-/* FOMRMULARIO */
-
-.form-group {
-    display: flex;
-    justify-content: center;
-}
-
-.col-md-6 {
-    display: -ms-flexbox;
-    justify-content: center;
-
-}
-
-.textoc {
-    text-align: left;
-
-}
-
-.btn {
-    background-color: black;
-    color: #EECCC7;
-    font-weight: bold;
-}
-
-.btn:hover {
-
-    background-color: #EECCC7;
-    color: black;
-    font-weight: bold;
-
-}
-
-/* footer de contacto */
-
-.footercont {
-    margin-top: 120px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    background-color: #EECCC7;
-
-}
-
-h3 {
-    color: black;
-    margin-top: 60px;
-    text-align: center;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
-
-}
-
-.redes {
-
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.redes a {
-    color: black;
-
-}
-
-/* Fin Footer de Contacto */
-
-
-/* *********** ESTILO DE PROMOCIONES ************** */
-
-
-.infoprom {
-    height: 250px;
-    display: flex;
-    border-top: 2px black solid;
-    padding: 50px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
-    justify-content: center;
-}
-
-.contenedorprom {
-    margin-top: -120px;
-}
-
-
-
-.imgprom {
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/promolunes.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 120%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-
-
-}
-
-.imgprom2 {
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/promomiercolesadomingo.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 120%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-}
-
-.imgprom3 {
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/promotarjeta.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 120%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-
-
-}
-
-.imgprom4 {
-    width: 400px;
-    height: 300px;
-    background-image: url(../img/promocolordia.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 120%;
-    margin-top: 200px;
-    margin-bottom: 120px;
-}
-
-/* footer de contacto */
-
-.footerprom {
-    margin-top: 120px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    background-color: #EECCC7;
-
-}
-
-h3 {
-    color: black;
-    margin-top: 60px;
-    text-align: center;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
-
-}
-
-.redes {
-
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.redes a {
-    color: black;
-
-}
-
-/* Fin Footer de Promociones */
-
-
-
-
-/* *********** ESTILO DE TURNOS ************** */
-
-
-.infotur {
-    height: 250px;
-    display: flex;
-    border-top: 2px black solid;
-    padding: 50px;
-    background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
-    justify-content: center;
-
-}
-
-.contenedortur {
-    margin-top: -120px;
-}
-
-.imgtur {
-    height: 1000px;
-    background-image: url(../img/h2.jpg);
-    background-size:cover;
-    
- 
-}
-
-.texth1 {
-    padding-top: 10%;
-    font-weight: bold;
-    
-}
-
-.btnmensaje{
-    
-    margin-top: 100px;
-    margin-left: 400px;
-    width: 200px;
-    font-weight: bold;
-    
-    
-}
-
-.btnwhatsapp{
-    color: black;
-    background-color: green;
-    font-weight: bold;
-   }
-.btnwhatsapp:hover{
-    color: green;
-    background-color: #EECCC7;
-    font-weight: bold;
-}
-
-
-/* footer de contacto */
-
-.footertur {
-    
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    background-color: #EECCC7;
-
-}
-
-h3 {
-    color: black;
-    margin-top: 60px;
-    text-align: center;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    padding: 20px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
-
-}
-
-.redes {
-
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.redes a {
-    color: black;
-
-}
-
-/* Fin Footer de Promociones */
+/*# sourceMappingURL=estilo.css.map */

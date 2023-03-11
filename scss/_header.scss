@@ -1,0 +1,20 @@
+.Logo {
+    display: flex;
+    width: 95px;
+}
+
+.paginas {
+    font-size: 1.3rem;
+    color: $color_1;
+    font-size: 15px;
+
+    &:hover {
+        text-decoration: underline;
+        color: $color_2;
+        font-weight: bold;
+    }
+}
+
+.colorfondo {
+    background-color: $background-color_2;
+}

@@ -1,0 +1,21 @@
+.slogan {
+	height: 400px;
+	margin-top: 200px;
+	background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.logoslogan {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.textoslogan {
+	text-align: center;
+	background-color: $background-color_3;
+	color: $color_3;
+}
+.fraseslogan {
+	margin-top: 0px;
+	font-weight: bold;
+}
