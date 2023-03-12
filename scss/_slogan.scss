@@ -1,3 +1,33 @@
+
+@mixin fslogan{
+	.infos {
+		height: 240px;
+		display: flex;
+		border-top: 2px black solid;
+		padding: 50px;
+		background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
+		justify-content: center;
+		
+		
+		
+		
+	}
+	.contenedors {
+		margin-top: -120px;
+	}
+
+}
+@mixin cpst {.infos {
+	height: 240px;
+	display: flex;
+	border-top: 2px black solid;
+	padding: 50px;
+	background-image: url(https://img.freepik.com/fotos-premium/textura-pared-ladrillo-blanco-moderno-fondo-fondo-diseno-abstracto_135735-301.jpg?w=1380);
+	justify-content: center;
+	
+
+}
+
 .slogan {
 	height: 320px;
 	margin-top: 200px;
@@ -6,9 +36,11 @@
 	border-bottom: 2px solid black;
 }
 .logoslogan {
-	margin-top: 10px;
+	margin-top: px;
 	display: flex;
 	justify-content: center;
+	
+
 }
 .textoslogan {
 	text-align: center;
@@ -19,3 +51,28 @@
 	margin-top: 0px;
 	font-weight: bold;
 }
+
+
+.contenedors {
+	margin-top: -120px;
+}
+
+}
+
+/*SERVICIOS*/
+
+@include cpst;
+
+
+/*CONTACTO*/
+
+@include cpst;
+
+/* PROMOCIONES*/
+@include cpst;
+
+/*TURNOS*/
+
+@include cpst;
+
+

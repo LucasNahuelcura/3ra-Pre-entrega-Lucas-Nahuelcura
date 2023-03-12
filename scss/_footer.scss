@@ -1,11 +1,38 @@
-@mixin anclas {
-	margin-left: 15px;
-				text-decoration: none;
-				text-transform: uppercase;
-				font-weight: bold;
-				color: $color_2;
-				border-radius: 4px;
+@mixin anclas {footer {
 
+	background-color: $background-color_2;
+	width: 100%;
+	height: 110px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	ul {
+		li {
+			list-style-type: none;
+			a {
+				margin-left: 15px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $color_2;
+			border-radius: 4px;
+
+}
+		}
+	}
+	h3 {
+		color:color_2;
+        font-weight: bold;
+       
+		footer {
+			&:hover {
+				text-decoration: underline;
+				color: $color_1;
+				font-weight: bold;
+			}
+		}
+	}
+}
 }
 
 footer {
@@ -20,9 +47,14 @@ footer {
 		li {
 			list-style-type: none;
 			a {
-				@include anclas;
-				
-			}
+				margin-left: 15px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: $color_2;
+			border-radius: 4px;
+
+}
 		}
 	}
 	h3 {
@@ -47,3 +79,16 @@ footer {
 		font-weight: bold;
 	}
 }
+
+/*SERVICIOS*/
+
+@include anclas;
+
+/*PROMOCIONES*/
+@include anclas;
+
+/*TURNOS*/
+
+@include anclas;
+
+
